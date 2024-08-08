@@ -41,3 +41,44 @@ body {
 section {
   margin-bottom: 40px;
 }
+
+@media (540px <= width <= 719px) {
+  body {
+    color: rebeccapurple;
+  }
+
+  .nav {
+    background-color: yellow;
+  }
+}
+
+@media (720px <= width <= 1024px) {
+  body {
+    background-color: #fff;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: red;
+  }
+  .nav {
+    background-color: aqua;
+  }
+
+  .nav a {
+    color: orange;
+  }
+}
+
+@media (1025px <= width <= 1200px) {
+  body {
+    color: green;
+  }
+
+  .container {
+    width: 80%;
+  }
+
+  .nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+  }
+}
