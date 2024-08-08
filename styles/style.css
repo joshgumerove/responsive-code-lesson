@@ -1,0 +1,43 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.nav {
+  width: 25%;
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  padding: 10px 0;
+}
+
+.nav a:hover {
+  background-color: #575757;
+}
+
+.content {
+  width: 75%;
+  background-color: white;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+section {
+  margin-bottom: 40px;
+}
